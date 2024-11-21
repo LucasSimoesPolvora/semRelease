@@ -19,4 +19,4 @@ jobs:
         git config user.name "action"
         git config user.email "action@test.com"
     - name: fetch tags
-      run: git fetch tags
+      run: git fetch -tags
