@@ -12,3 +12,5 @@ jobs:
     - uses: actions/checkout@v4
       with:
         token: ${{ secrets.PAT }}
+    - name: setup git
+      run: git config --global user.name "test" email "test@test.com
