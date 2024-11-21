@@ -16,5 +16,7 @@ jobs:
       run: |
         git config user.name "action"
         git config user.email "action@test.com"
-    - name: Current version ${{ github.ref_name }}
-      uses: "WyriHaximus/github-action-get-previous-tag@v1"
+    - name: Dump GitHub context
+        env:
+          GITHUB_CONTEXT: ${{ toJSON(github) }}
+        run: echo "$GITHUB_CONTEXT"
