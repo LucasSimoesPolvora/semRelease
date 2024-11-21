@@ -12,9 +12,4 @@ jobs:
     - uses: actions/checkout@v4
       with:
         token: ${{ secrets.PAT }}
-    # - name: test
-    #   env:
-    #     PAT: ${{ secrets.PAT }}
-    #   with:
-    #     repository: LucasSimoesPolvora/semrelease
-    #     token: $PAT 
+    
