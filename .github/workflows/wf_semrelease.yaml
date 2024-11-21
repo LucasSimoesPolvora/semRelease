@@ -17,4 +17,4 @@ jobs:
         git config user.name "action"
         git config user.email "action@test.com"
     - name: Current version ${{ github.ref_name }}
-      run: echo "hello world"
+      run: echo "hello world I need the tag"
