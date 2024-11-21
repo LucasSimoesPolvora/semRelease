@@ -14,5 +14,5 @@ jobs:
         token: ${{ secrets.PAT }}
     - name: setup git
       run: |
-      git config user.name "action" 
-      git config user.email "action@test.com"
+        git config user.name "action"
+        git config user.email "action@test.com"
